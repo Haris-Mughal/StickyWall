@@ -1,0 +1,50 @@
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(82, 82, 82, 0.24) 0px 3px 8px;
+    min-height: 15rem;
+    color: black;
+    background-color: $PlusCard;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    .Plus{
+        font-weight:500;
+        font-size: 60px;
+      
+    }
+}
+.box1:hover, .box:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box1:active, .box:active{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.box{
+    
+    min-height: 15rem;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    
+    box-shadow: rgba(110, 110, 110, 0.24) 0px 3px 8px;
+    .Plus{
+        font-weight:500;
+        font-size: 60px;
+      
+    }
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box:active{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+// #sticky {
+//     height: 4px;
+// }
